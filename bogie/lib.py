@@ -13,8 +13,7 @@ def try_me():
     input("")
     bot, User, manche = 0, 0, 0
     while User != 3 and bot !=3:
-        print(f'Manche N°{manche} \n quel est votre choix ? \n \
-            1 = pierre \n    2 = feuille \n 3 = ciseaux'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    )
+        print(f'Manche N°{manche} \n quel est votre choix ? \n1 = pierre \n2 = feuille \n3 = ciseaux'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    )
         forma = False
         while forma == False:
             answer = input()
